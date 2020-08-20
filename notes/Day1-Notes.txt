@@ -1,0 +1,207 @@
+min 8 GB of RAM 
+200GB HDD 
+
+
+CS 
+IT 
+Telecom 
+E&E 
+PE
+I&C
+
+
+1. Software Engg 
+2. Agile 
+	- Scrum 
+	- Sprint 
+	- Kanban 
+	- Backlog  (Product/Sprint)
+	- Stakeholder /product owner 
+3. Jira / Meistertask / trello 
+4. Case study 
+
+
+Design Modules 
+RA - Requirement Analysis 
+SRS - Software Requirement Specification 
+HLD - High Level Design 
+LLD - Low Level Design 
+LLP - Low Level Planning 
+	 - Teams 
+
+Safety critical System 
+	- Hard Real Time System 
+		if not response in stipulated timeframe 
+		then there is crash 
+			*) Traffic Control System 
+			*) Open the wheel base for air plane 
+			*) Misile projectory system 
+			
+	- Soft Real Time System 
+		if not response in stipulated timeframe 
+		then there is no crash 
+			*) Remote control - TV 
+			*) Slow Internet connect 
+
+
+
+Cloud Native 
+	- 24x7, 
+	RMI 
+		- Skeleton - Server 
+		- Stub - Client (Floppy)
+
+
+Black Box - No programming (Stake Holder, Product Owner)
+Gray Box 
+White Box - Hard Core Programming (Java, NodeJs, React)
+
+	
+- dont want to fail my software 
+	Orkut 
+	Facebook vs g+ 
+	How ???? 
+	Stake Holder 
+		- testing in regular intervals  + QA 
+	Stake Holder 
+		- market research 
+	Stake Holder 
+		- does it meet end user expection 
+	Stake Holder 
+		- provide what they want 
+	Stake Holder 
+		- Unique ness 
+	Stake Holder 
+		- V&V 
+	Stake Holder 
+		- Risk analysis 
+	Stake Holder 
+		- keep ugrading on the audience who uses it 
+	Stake Holder 
+		- making it fast and bug free 
+	Stake Holder 		
+		- process 
+		
+		
+		
+		
+		
+Milan - SRS 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+- we dont over budgeted 
+- deliver in the specified time 
+
+
+Learning (Asset or Liability)
+How ???? 
+
+Sahil - To solve complex problem for audiences and automate the solution using software
+
+Gaurav - "dont want to fail my software"
+
+
+Miscommunication - Why 
+
+
+TDD - Test Driven Development (Coding [java, .net, python...])
+BDD - Behaviour Driven Development (Given When Then [And, But] ) - AC
+DDD - Domain Driven Development (Stake Holder, Product Owner)
+
+SDET, Fullstack 
+
+Monolithick 
+MacroServices 
+Microservice 
+NanoService 
+
+
+
+Requirement -> 
+	Produdt Backlogs -> all Stories 
+
+		Sprint 1 -> 
+			finished 
+		Sprint 2 -> 
+			you will pull more strories from product backlog 
+			Retro 
+		Sprint 3 -> 
+
+		Sprint 4 -> 
+
+
+
+
+
+Atlassian 
+	Confluence (WIKI) - where multiple people can use the same time 
+	JIRA 
+	BitBucket 
+	
+	
+CI/CD 
+	Jenkins 
+	Docker 
+	Kafka 
+	
+	
+
+
+
+
+
+
+
+
+
+
+1. Case Study Name 
+2. Why They Failed 
+3. Reasons 
+4. How was the approach 
+5. What can you make it better 
+6. is Agile the fit ? 
+
+
+
+
+NHS IT - https://www.henricodolfing.com/2019/01/case-study-10-billion-it-disaster.html
+
+Few other failure case studies : https://www.henricodolfing.com/p/project-failure-case-studies.html
+
+
+
+
+Epic - Registration and login (to use the system) 
+
+User Story : Login user 
+AC1 : 
+Given the application is running 
+When the customer enters username and password 
+When clicked on submit button 
+Then the user to be routed to home page 
+And on top right corner a message to be shown called “Welcome <User>” 
+
+
+AC2 :
+AC3 : 
+User Story : Register User 
+
+
+
+
+
+
+
+
+
+
+
+
