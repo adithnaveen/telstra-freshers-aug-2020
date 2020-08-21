@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+      localStorage.setItem("name", "Sahil");
+      localStorage.setItem("job", "developer");
+      localStorage.setItem("address", "Bengaluru,india");
+
+      console.log(localStorage.length);
+      console.log(localStorage.getItem("name"));
+      localStorage.removeItem("job");
+      console.log(localStorage.length);
+
+      localStorage.clear();
+      console.log(localStorage.length);
+    </script>
+  </body>
+</html>

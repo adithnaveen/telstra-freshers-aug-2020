@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript">
+      function fnMyCustom() {
+        console.log("Called when you leave the text box");
+      }
+    </script>
+  </head>
+  <body>
+    <h2>HTML Image Range Demo</h2>
+    <hr />
+    <div>
+      <input
+        type="range"
+        name=""
+        min="100"
+        max="1000"
+        value="300"
+        style="width: 100%;"
+      />
+    </div>
+
+    <img src="./assets/mickey.png" alt="Mickey Image" />
+
+    <hr />
+
+    <input type="text" name="username" id="id" onblur="fnMyCustom()" />
+    <input type="text" name="myname" id="myname" />
+
+    <script type="text/javascript">
+      var _rng = document.querySelector("input[type=range]");
+
+      var _img = document.querySelector("img");
+
+      _rng.oninput = function (evt) {
+        console.log(evt.target.value);
+        _img.style.width = evt.target.value + "px";
+      };
+
+      var _myname = document.getElementById("myname");
+
+      _myname.addEventListener("blur", function (evt) {
+        console.log("Hey you left myname text box... ", evt);
+      });
+    </script>
+  </body>
+</html>

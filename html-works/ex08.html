@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .images-container img {
+        margin: 10px;
+        border-radius: 5px;
+        transition: all 0.25s ease-in-out;
+      }
+
+      .images-container img:hover {
+        transform: scale(1.5);
+      }
+
+      h1 {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        transition: all 1000ms ease-in-out;
+      }
+
+      h1:hover {
+        background-color: bisque;
+        color: blue;
+        box-shadow: 0 0 30px yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Demo</h1>
+
+    <hr />
+
+    <div class="images-container">
+      <img src="./assets/cake.jpg" id="cake" />
+      <img src="./assets/spoon.jpg" id="spoon" />
+      <img src="./assets/eye.jpg" id="eye" />
+      <img src="./assets/tampa.jpg" id="tampa" />
+      <img src="./assets/gummies.jpg" id="gummies" />
+    </div>
+  </body>
+</html>

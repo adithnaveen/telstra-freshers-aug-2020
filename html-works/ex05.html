@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"
+    />
+
+    <style>
+      body {
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML5 Form Demo</h1>
+
+    <form action="">
+      <div>
+        <label for="username">Enter UserName</label>
+        <input type="text" name="username" required minlength="4" />
+      </div>
+
+      <!-- div>(label{Enter your name}+
+        input[required][minlength=4]) -->
+      <div>
+        <label for="">Enter Your Name</label>
+        <input type="text" name="username" required="required" minlength="4" />
+      </div>
+
+      <div>
+        <label for="">Enter Your Email</label>
+        <input type="email" name="email" />
+      </div>
+
+      <div>
+        <label for="">Enter your mobile number</label>
+        <input type="mobile" type="tel" required pattern="^\d{10}$" />
+      </div>
+
+      <div>
+        <button type="submit">Submit Data</button>
+      </div>
+    </form>
+
+    <hr />
+
+    <input type="range" name="" minlength="10" maxlength="100" />
+  </body>
+</html>

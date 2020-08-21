@@ -15,3 +15,42 @@ Nodejs - Java Script
 Web logic - java 
 Web sphere - java 
 Apache - PHP 
+
+
+
+http://127.0.0.1:5500/ex05.html?username=naveen
+http://127.0.0.1:5500/ex05.html?username=naveen&username=kumar&email=naveen.srinivas%40manipalglobal.com
+
+ 
+
+
+1. Frameset
+2. Min 5-7 Pages 
+3. 1 Form  + validation 
+	Login 
+	Registration 
+4. Customer Profile Page 
+5. Gallery - fabricate with Tables/Div 
+6. Map 
+7. Css (you can write / CDN)
+8. Video * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
