@@ -1,6 +1,17 @@
-VS Code 	https://code.visualstudio.com/download
+VS Code 	https://code.visualstudio.com/download 
 Node JS	https://nodejs.org/en/download/
 MongoDB	https://www.mongodb.com/try/download/community
 Docker 	https://docs.docker.com/docker-for-windows/install/
 Kafka	https://kafka.apache.org/downloads
-Git 	https://git-scm.com/downloads
+Git 	https://git-scm.com/downloads 
+
+
+
+Tomcat  - Java 
+IIS- MS
+GO - GO 
+Django - Python 
+Nodejs - Java Script 
+Web logic - java 
+Web sphere - java 
+Apache - PHP 

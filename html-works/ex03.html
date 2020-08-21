@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      table {
+        border: 2px solid black;
+        background-color: antiquewhite;
+      }
+      tr,
+      td,
+      th {
+        border: 1px dashed blue;
+        padding: 7px;
+        text-align: center;
+      }
+
+      #table1 tr:nth-child(even) {
+        background-color: azure;
+      }
+
+      #table1 tr:nth-child(odd) {
+        background-color: lightblue;
+      }
+
+      #table1 th {
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Sample Table</h2>
+    <table>
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Java</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td>Angular</td>
+        <td rowspan="2">NodeJs</td>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <td>Java</td>
+      </tr>
+
+      <tr>
+        <th>Thursday</th>
+        <td>Java</td>
+        <td>Java</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <table id="table1">
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Java</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td>Angular</td>
+        <td rowspan="2">NodeJs</td>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <td>Java</td>
+      </tr>
+
+      <tr>
+        <th>Thursday</th>
+        <td>Java</td>
+        <td>Java</td>
+      </tr>
+    </table>
+  </body>
+</html>
