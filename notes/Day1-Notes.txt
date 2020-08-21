@@ -195,7 +195,9 @@ AC3 :
 User Story : Register User 
 
 
-
+Team 1 - TSB Bank 
+Team 2 - The $440 Million Software Error at Knight Capital
+Team 3 - Vodafone case
 
 
 
